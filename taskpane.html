@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fès Maps</title>
   <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=4dab73e" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <script>window.__FES_VERSION="4dab73e · 2026-11-13 19:23";</script>
 </head>
 <body>
   <div class="app">
@@ -15,6 +17,7 @@
         <span class="mark">◆</span> Fès Maps
         <span id="status" class="status">Loading…</span>
       </header>
+      <div id="version" class="version"></div>
 
       <nav class="tabs" role="tablist">
         <button class="tab active" data-tab="area"><svg class="ico" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg>Area</button>
@@ -200,7 +203,7 @@
       setTimeout(function () { if (!window.__fesReady && !legacy) show('The map script did not load. Reload the page (Ctrl+F5).'); }, 15000);
     })();
   </script>
-  <script src="fes-data.js"></script>
-  <script src="app.js"></script>
+  <script src="fes-data.js?v=4dab73e"></script>
+  <script src="app.js?v=4dab73e"></script>
 </body>
 </html>
